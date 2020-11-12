@@ -22,14 +22,16 @@ build:
 
 requirements:
   build:
-    - python >=3.5.0
+    - python >=3.8.0
     - migen
     - pyserial
+    - asyncserial
     - jinja2
   run:
-    - python >=3.5.0
+    - python >=3.8.0
     - migen
     - pyserial
+    - asyncserial
     - jinja2
 
 test:
